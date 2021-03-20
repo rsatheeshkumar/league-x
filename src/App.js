@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom'
+
+import MatchPage from './pages/match-page'
+import SquadPage from './pages/squad-page'
+
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <div className="row d-flex flex-row">
+        <Switch>
+          <Route exact path="/" component={MatchPage} />
+          <Route path="/squad/:id" component={SquadPage} />
+        </Switch>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

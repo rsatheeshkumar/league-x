@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3555.25 1287.395 37.5 39.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f82d97;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        filter: url(#Path_14308);
+      }
+    </style>
+    <filter id="Path_14308" x="3555.25" y="1287.395" width="37.5" height="39.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#f82d97"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="how_to_play_active" data-name="how to play_active" transform="translate(3562.7 1163.844)">
+    <g id="Group_10483" data-name="Group 10483" transform="translate(2.3 133.3)">
+      <g class="cls-2" transform="matrix(1, 0, 0, 1, -3565, -1297.14)">
+        <path id="Path_14308-2" data-name="Path 14308" class="cls-1" d="M20.3,153.3H2.3v-20h18Z" transform="translate(3562.7 1163.84)"/>
+      </g>
+      <line id="Line_93" data-name="Line 93" class="cls-1" y2="20" transform="translate(2.5)"/>
+      <line id="Line_94" data-name="Line 94" class="cls-1" x2="9" transform="translate(5 5)"/>
+      <line id="Line_95" data-name="Line 95" class="cls-1" x2="9" transform="translate(5 10)"/>
+      <line id="Line_96" data-name="Line 96" class="cls-1" x2="9" transform="translate(5 15)"/>
+    </g>
+  </g>
+</svg>
